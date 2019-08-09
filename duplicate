@@ -6,18 +6,3 @@ for x in a:
         uniq_items.append(x)
         dup_items.add(x)
         print(dup_items)
-a=[1,2,3,3,4,5,66,7]
-dup_items=set()
-uniq_items=[]
-for x in a:
-    if x not in dup_items:
-        uniq_items.append(x)
-        dup_items.add(x)
-        print(dup_items)a=[1,2,3,3,4,5,66,7]
-dup_items=set()
-uniq_items=[]
-for x in a:
-    if x not in dup_items:
-        uniq_items.append(x)
-        dup_items.add(x)
-        print(dup_items)
