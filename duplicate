@@ -6,7 +6,4 @@ for x in a:
         uniq_items.append(x)
         dup_items.add(x)
         print(dup_items)
---create table patientpd2(doctorname varchar(20),doctor_id int,speciliztion varchar(20),phone int(10),available_time char(4) CHECK(available_time in ('mor','noon','eve')))
 
---INSERT INTO patientpd2 VALUES("prishankar",201,"nepronist",9965131649,'noon')
-SELECT * FROM patientpd2;
